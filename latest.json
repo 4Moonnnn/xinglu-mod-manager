@@ -1,25 +1,25 @@
 {
-  "version": "202611241713",
-  "date": "202611241713",
+  "version": "202611242119",
+  "date": "202611242119",
   "changes": [
-    "【新增】分享 Mod 清单：管理 → 分享 Mod 清单（或合集页「分享合集」），可生成网页、图片、PDF，多页图片打包成压缩包，附尾号和 Nexus 链接。提供 7 种样式（卡片 / 动态 / 歌单 / 胶片 / 图鉴 / 手账 / 小票）和 12 种配色，可按来源筛选、带上简介、上传头像和背景，边选边预览。还可以选「自制」：复制说明发给任意 AI，把 AI 设计的模板放进来使用，也能存成文件分享给别人。Made by 填中文名会自动显示拼音。",
-    "【修复】「管理」等菜单过长时超出窗口，现在可以滚动。",
-    "【优化】「刷新 Nexus状态」及扫描后，管理器中有、Nexus 上未追踪的 Mod 会询问是否追踪，每个 Mod 只提示一次。",
-    "【优化】Mod 文件中未写 Nexus 编号时，自动通过 SMAPI 官网对照补上；在 Nexus 追踪后不再出现重复记录。",
-    "【优化】「移除…」时不删除游戏文件的 Mod 改为「忽略」，下次扫描不会重新出现。",
-    "【优化】版本号改为一串数字（如 202611241308），同一天发多个版本也能区分；更新记录只显示最近 7 次。",
-    "【修复】在浏览器中打开时，「界面大小」改为提示使用 Ctrl 和 + / − 缩放。"
+    "【新增】「匹配 Nexus 来源」：扫描出来、认不出来源的本地 Mod，管理器会按名字和作者找出 Nexus 上对应的 Mod，确认即可对应；都不对时可手动填写 Nexus 编号或链接。对应后与 Nexus 下载的 Mod 一样显示简介、图片并检查更新。点「刷新 Mod 状态」时自动弹出。",
+    "【新增】详情页「Nexus」一栏：单个本地 Mod 可填写 Nexus 编号，或点「找相近的」选择；填错可「取消对应」。",
+    "【优化】「刷新 Nexus状态」改名为「刷新 Mod 状态」。",
+    "【修复】「找同类」和前置「找」按名字搜索 Nexus 时搜不到结果的问题。",
+    "【优化】分享清单「动态」样式去掉帖子之间的分隔线。",
+    "【优化】「全部更新」中途关掉下载窗口后，可在提示条点「重新打开」继续。",
+    "【修复】由于太长所以省略了，总之就是让两个ai测试完bug修复了"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 542529,
-    "sha256": "a5be9ef848952546f8e28cb7319dbb5d8db6106c08e8c64805b3174385b3bacc",
+    "size": 560032,
+    "sha256": "b771d397918418f2f000f41000c343ef8e2002422618a86328f1279e7d66ed4b",
     "urls": [
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611241713.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611241713.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611241713.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611241713.zip"
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242119.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611242119.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242119.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611242119.zip"
     ]
   }
 }
