@@ -1,25 +1,25 @@
 {
-  "version": "20261124-1258",
-  "date": "2026-11-24",
+  "version": "202611241713",
+  "date": "202611241713",
   "changes": [
-    "【新增】管理器可一键更新：有新版本时点「立即更新」，自动下载、安装并重启，Mod 和设置均保留。",
-    "【新增】「管理 → 更正前置」：前置识别错误时可在此更正。",
-    "【新增】设置 → 常规「颜色」：可选浅色、深色（夜晚模式）或跟随系统。",
-    "【新增】设置 → 常规「界面大小」：可固定为 100%–175%，不受电脑显示缩放影响。",
-    "【优化】会员账号同时下载的 Mod 数量从 2 个增加到 3 个。",
-    "【修复】牌阵中点击空白处后界面变灰、无法操作的问题。",
-    "【修复】管理器自动重启后，已打开的窗口提示「连不上管理器」的问题。"
+    "【新增】分享 Mod 清单：管理 → 分享 Mod 清单（或合集页「分享合集」），可生成网页、图片、PDF，多页图片打包成压缩包，附尾号和 Nexus 链接。提供 7 种样式（卡片 / 动态 / 歌单 / 胶片 / 图鉴 / 手账 / 小票）和 12 种配色，可按来源筛选、带上简介、上传头像和背景，边选边预览。还可以选「自制」：复制说明发给任意 AI，把 AI 设计的模板放进来使用，也能存成文件分享给别人。Made by 填中文名会自动显示拼音。",
+    "【修复】「管理」等菜单过长时超出窗口，现在可以滚动。",
+    "【优化】「刷新 Nexus状态」及扫描后，管理器中有、Nexus 上未追踪的 Mod 会询问是否追踪，每个 Mod 只提示一次。",
+    "【优化】Mod 文件中未写 Nexus 编号时，自动通过 SMAPI 官网对照补上；在 Nexus 追踪后不再出现重复记录。",
+    "【优化】「移除…」时不删除游戏文件的 Mod 改为「忽略」，下次扫描不会重新出现。",
+    "【优化】版本号改为一串数字（如 202611241308），同一天发多个版本也能区分；更新记录只显示最近 7 次。",
+    "【修复】在浏览器中打开时，「界面大小」改为提示使用 Ctrl 和 + / − 缩放。"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 498459,
-    "sha256": "117b22431f809171a5f3282cc3a6d9be5f3476af857ffa5a9430fddf4a512f9a",
+    "size": 542529,
+    "sha256": "a5be9ef848952546f8e28cb7319dbb5d8db6106c08e8c64805b3174385b3bacc",
     "urls": [
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-20261124-1258.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-20261124-1258.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-20261124-1258.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-20261124-1258.zip"
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611241713.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611241713.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611241713.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611241713.zip"
     ]
   }
 }
