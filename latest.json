@@ -1,6 +1,6 @@
 {
-  "version": "202611242242",
-  "date": "202611242242",
+  "version": "202611242249",
+  "date": "202611242249",
   "changes": [
     "【修复】卸载及更新失败时保护原 Mod 文件和玩家配置。",
     "【修复】版本切换失败时不改变选择；覆盖式汉化启停和合集状态保持一致。",
@@ -11,13 +11,13 @@
   "note": "",
   "pkg": {
     "size": 565609,
-    "sha256": "c5541984a49408b6569e424544cc083d12b9025db88d5e2e640583ab295ef3a4",
+    "sha256": "a5f0ad99f6ca91452794c4c08692270f4d6f6e15e7e949d87dc8d173c21356a2",
     "urls": [
-      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611242242.zip",
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242242.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611242242.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242242.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611242242.zip"
+      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611242249.zip",
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242249.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611242249.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242249.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611242249.zip"
     ]
   }
 }
