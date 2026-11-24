@@ -1,25 +1,23 @@
 {
-  "version": "202611242119",
-  "date": "202611242119",
+  "version": "202611242242",
+  "date": "202611242242",
   "changes": [
-    "【新增】「匹配 Nexus 来源」：扫描出来、认不出来源的本地 Mod，管理器会按名字和作者找出 Nexus 上对应的 Mod，确认即可对应；都不对时可手动填写 Nexus 编号或链接。对应后与 Nexus 下载的 Mod 一样显示简介、图片并检查更新。点「刷新 Mod 状态」时自动弹出。",
-    "【新增】详情页「Nexus」一栏：单个本地 Mod 可填写 Nexus 编号，或点「找相近的」选择；填错可「取消对应」。",
-    "【优化】「刷新 Nexus状态」改名为「刷新 Mod 状态」。",
-    "【修复】「找同类」和前置「找」按名字搜索 Nexus 时搜不到结果的问题。",
-    "【优化】分享清单「动态」样式去掉帖子之间的分隔线。",
-    "【优化】「全部更新」中途关掉下载窗口后，可在提示条点「重新打开」继续。",
-    "【修复】由于太长所以省略了，总之就是让两个ai测试完bug修复了"
+    "【修复】卸载及更新失败时保护原 Mod 文件和玩家配置。",
+    "【修复】版本切换失败时不改变选择；覆盖式汉化启停和合集状态保持一致。",
+    "【修复】覆盖式汉化安装失败时逐文件核验恢复，防止覆盖原版备份。",
+    "【优化】管理器更新支持 Gitee、GitHub 双源，连接失败可以重试。"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 560032,
-    "sha256": "b771d397918418f2f000f41000c343ef8e2002422618a86328f1279e7d66ed4b",
+    "size": 565609,
+    "sha256": "c5541984a49408b6569e424544cc083d12b9025db88d5e2e640583ab295ef3a4",
     "urls": [
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242119.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611242119.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242119.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611242119.zip"
+      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611242242.zip",
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242242.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611242242.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611242242.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611242242.zip"
     ]
   }
 }
