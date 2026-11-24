@@ -1,5 +1,5 @@
 {
-  "version": "20261124-1114",
+  "version": "20261124-1258",
   "date": "2026-11-24",
   "changes": [
     "【新增】管理器可一键更新：有新版本时点「立即更新」，自动下载、安装并重启，Mod 和设置均保留。",
@@ -13,13 +13,13 @@
   "url": "",
   "note": "",
   "pkg": {
-    "size": 488388,
-    "sha256": "4b1d415a2ae5a682c8b0602bdbd3ef5c024ccb1ad0c5725b1587d3e3efb6b814",
+    "size": 498459,
+    "sha256": "117b22431f809171a5f3282cc3a6d9be5f3476af857ffa5a9430fddf4a512f9a",
     "urls": [
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-20261124-1114.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-20261124-1114.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-20261124-1114.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-20261124-1114.zip"
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-20261124-1258.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-20261124-1258.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-20261124-1258.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-20261124-1258.zip"
     ]
   }
 }
