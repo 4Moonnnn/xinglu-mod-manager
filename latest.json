@@ -1,29 +1,20 @@
 {
-  "version": "202611251208",
-  "date": "202611251208",
+  "version": "202611251846",
+  "date": "202611251846",
   "changes": [
-    "【修复】大型多组件 Mod（含 SVE 等框架后缀组件）归组，自动发现旧版拆分记录并支持批量确认合并。",
-    "【优化】独立多组件 Mod 整组启停，保留内部组件与版本状态。",
-    "【修复】统一按钮悬浮提示位置，详情页底部操作按钮去掉图标，避免拥挤。",
-    "【新增】管理 → 识别大型 Mod，可指定文件夹手动归组并确认来源。",
-    "【修复】扫描及刷新不再擅自移动未确认的 Mod 文件夹，疑似多组件目录须先确认归属。",
-    "【优化】Nexus 来源匹配提示更清晰。",
-    "【优化】点击大型 Mod 文件夹即可预览识别，无需打开文件夹。",
-    "【修复】匹配 Nexus 来源后重新获取官方详情并翻译简介，修复大型 Mod 沿用子组件简介；隐藏大型 Mod 的手动对应提示。",
-    "【修复】多组件 Mod 的「打开文件夹」直接打开整个 Mod 的专属目录。",
-    "【修复】Mod 确认匹配 Nexus 后不再残留旧的非 Nexus 来源。"
+    "【修复】修复了大型多文件夹mod识别错误的问题。"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 585436,
-    "sha256": "a59e0406a0fa106f39d1a3ac9f4652b5ef6a774312844ffe4cc47f6403f6b292",
+    "size": 584850,
+    "sha256": "c52ede549f6da7f6265603ca31c2409f79d6329d51714c0707c980b578788641",
     "urls": [
-      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611251208.zip",
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611251208.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611251208.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611251208.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611251208.zip"
+      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611251846.zip",
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611251846.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611251846.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611251846.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611251846.zip"
     ]
   }
 }
