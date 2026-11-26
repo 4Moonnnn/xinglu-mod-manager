@@ -1,29 +1,24 @@
 {
-  "version": "202611252139",
-  "date": "202611252139",
+  "version": "202611261033",
+  "date": "202611261033",
   "changes": [
-    "【修复】卸载大型 Mod 时，带只读属性的文件或放在其他磁盘的 Mod 不再提示「拒绝访问」。",
-    "【优化】卸载立即显示进度提示，减少重复读取和前置检查等待。",
-    "【修复】「补齐前置」能找出 Mod 文件里写明、但 Nexus 页面没有列出的必需前置。",
-    "【优化】游戏 Mods 文件夹里没有 Mod 的空分类文件夹会自动删除。",
-    "【优化】搜索不区分大小写，并忽略空格。",
-    "【优化】同一个 Mod 分几个版本（如 CP / CF / DGA）时，你装的版本用不到的框架前置不再算缺。",
-    "【新增】前置可以标「不需要」：详情页前置依赖和「补齐前置」弹窗里都能点，标错了点「取消」改回来。",
-    "【优化】「补齐前置」弹窗里点 Mod 名字可直接打开详情。",
-    "【修复】从「补齐前置」打开详情后，点「我装了」或「找」弹出的窗口不再被详情页挡住。",
-    "【修复】弹窗关闭保护、下拉菜单 Esc、错误提示复制及连续确认弹窗。"
+    "【修复】Mod 更新检测改为核对实际下载文件、版本分支和各个已安装组件，减少误报、漏报及反复下载。",
+    "【新增】有更新页面可查看待核查的 Mod，SMAPI 提醒作为辅助线索。",
+    "【优化】更新检查失败后保留待查项目，按明确的文件更新计划下载。",
+    "【修复】自动更新安装前核验各组件的实际版本，阻止误降级和无法确认的版本。",
+    "【修复】更新链保留原平台与分支信息，防止跨平台误更新。"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 590962,
-    "sha256": "eb146187109949b4b84d6c3784499aa4aa95a92f7e6edef3f73146cdc610b11f",
+    "size": 605914,
+    "sha256": "adfa37612a52d95ced37aee05cd67b006f0e618d35690ce8583d8c263ae0dde1",
     "urls": [
-      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611252139.zip",
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611252139.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611252139.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611252139.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611252139.zip"
+      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611261033.zip",
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261033.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611261033.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261033.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611261033.zip"
     ]
   }
 }
