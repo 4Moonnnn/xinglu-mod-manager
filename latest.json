@@ -1,20 +1,31 @@
 {
-  "version": "202611261356",
-  "date": "202611261356",
+  "version": "202611262207",
+  "date": "202611262207",
   "changes": [
-    "【修复】电脑上的 Chrome 损坏打不开时，自动改用 Edge 或系统默认浏览器，管理器不再报错打不开。"
+    "【新增】没有图片的 Mod 自动显示用名字排版的白底封面（中文名、英文名、作者），设置封面后换成真图。",
+    "【新增】「设置 → 常规 → 无图封面」可自定义名字封面：显示内容、位置、字号、粗细、颜色，也可上传图片作背景。",
+    "【优化】一键汉化：查找速度大幅提升；Mod 页面里找不到时，再按原 Mod 名字在 N 网搜；一个 Mod 有多个汉化时可自己选；结果里说明自带简中、没对上 N 网的数量。",
+    "【新增】汉化装好后弹出「汉化结果」窗口，列出每个 Mod 的处理情况，可直接撤销。",
+    "【新增】已装汉化的 Mod，详情页「汉化」一栏显示「撤销汉化」，点击即可换回原文件。",
+    "【新增】筛选下拉新增「已汉化」，可查看已安装汉化的 Mod。",
+    "【修复】Mod 已装好、仅中文名翻译或 AI 分类出错时，误提示「没装上」。",
+    "【修复】查找汉化时 Nexus 拒绝查询，导致一直提示「Nexus没回应」、找不到汉化。",
+    "【新增】Mod 详情页新增「汉化」一栏：打开详情页时自动查找汉化并填好尾号，点「安装汉化」即可安装；也可自行填写汉化的 Nexus 尾号或链接并保存。原底部「汉化」按钮移除。",
+    "【优化】出错提示保留原始错误信息并附上出错位置，区分下载失败与安装失败；页面出错时也会提示，可一键复制发给作者。",
+    "【修复】阻止错误的汉化关联及撤销，保护原 Mod 和游戏文件。",
+    "【修复】全部汉化准确显示未完成和等待补查的项目；网络查询失败不再缓存为没有汉化。"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 605920,
-    "sha256": "a3b68d9d2983730798317863b18b85c8e1b0e95d636a2be673c105f893050afe",
+    "size": 621137,
+    "sha256": "ba998159529c846203a75ab29c458c247bcae87a6c16390272bd094e638748d0",
     "urls": [
-      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611261356.zip",
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261356.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611261356.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261356.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611261356.zip"
+      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611262207.zip",
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611262207.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611262207.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611262207.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611262207.zip"
     ]
   }
 }
