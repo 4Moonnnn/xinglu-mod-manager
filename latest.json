@@ -1,24 +1,20 @@
 {
-  "version": "202611261033",
-  "date": "202611261033",
+  "version": "202611261356",
+  "date": "202611261356",
   "changes": [
-    "【修复】Mod 更新检测改为核对实际下载文件、版本分支和各个已安装组件，减少误报、漏报及反复下载。",
-    "【新增】有更新页面可查看待核查的 Mod，SMAPI 提醒作为辅助线索。",
-    "【优化】更新检查失败后保留待查项目，按明确的文件更新计划下载。",
-    "【修复】自动更新安装前核验各组件的实际版本，阻止误降级和无法确认的版本。",
-    "【修复】更新链保留原平台与分支信息，防止跨平台误更新。"
+    "【修复】电脑上的 Chrome 损坏打不开时，自动改用 Edge 或系统默认浏览器，管理器不再报错打不开。"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 605914,
-    "sha256": "adfa37612a52d95ced37aee05cd67b006f0e618d35690ce8583d8c263ae0dde1",
+    "size": 605920,
+    "sha256": "a3b68d9d2983730798317863b18b85c8e1b0e95d636a2be673c105f893050afe",
     "urls": [
-      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611261033.zip",
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261033.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611261033.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261033.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611261033.zip"
+      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611261356.zip",
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261356.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611261356.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611261356.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611261356.zip"
     ]
   }
 }
