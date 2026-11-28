@@ -1,26 +1,20 @@
 {
-  "version": "202611281545",
-  "date": "202611281545",
+  "version": "202611281552",
+  "date": "202611281552",
   "changes": [
-    "【新增】「管理 → 日志分析」改为在管理器内直接查看：自动读取最近一次游戏的 SMAPI 日志，按「没加载」「不兼容」「报错」「警告」「提醒」列出出问题的 Mod 及原因，可查看和复制报错原文；也可拖入他人发来的日志文件查看。",
-    "【优化】连续点击按钮、卡片、标签等可点击的地方时，不再选中旁边的文字。",
-    "【修复】批量操作栏吸顶后与顶部工具栏之间漏出一条卡片。",
-    "【优化】「有更新」页顶部：「待核查」按钮紧跟在说明文字后，「全部更新」靠右。",
-    "【优化】助手「模菇」的人设与回答不再使用菌丝、孢子等描述。",
-    "【优化】统一并精简界面说明文字（免费账号下载、补齐前置、合集、汉化、备份恢复、导入非 Nexus Mod、合并组件等），表述更准确清楚。",
-    "【修复】「全部更新」提示中指向不存在的「管理 → 检查更新」，改为「刷新 Mod 状态」；首次使用提示注明 AI Key 可不填。"
+    "【优化】更新后不再自动弹出「更新说明」，更新内容统一在「有新版本」提醒中查看；历史记录可在「设置 → 常规 → 查看更新记录」查看。"
   ],
   "url": "",
   "note": "",
   "pkg": {
-    "size": 623535,
-    "sha256": "93e7b7a1317e45b2c804fc1fd419ea553ec59ccbfcaf8615623df04d7dd4f9ee",
+    "size": 623499,
+    "sha256": "191e47beb6a3b52e9ce1236437f4cca29714004f59bcbda767b53c090b0d5ae0",
     "urls": [
-      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611281545.zip",
-      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611281545.zip",
-      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611281545.zip",
-      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611281545.zip",
-      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611281545.zip"
+      "https://gitee.com/formoonnnn/xinglu-mod-manager/raw/master/update-202611281552.zip",
+      "https://cdn.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611281552.zip",
+      "https://raw.githubusercontent.com/4Moonnnn/xinglu-mod-manager/main/update-202611281552.zip",
+      "https://fastly.jsdelivr.net/gh/4Moonnnn/xinglu-mod-manager@main/update-202611281552.zip",
+      "https://github.com/4Moonnnn/xinglu-mod-manager/raw/main/update-202611281552.zip"
     ]
   }
 }
